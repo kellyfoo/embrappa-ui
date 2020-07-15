@@ -5,12 +5,12 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
-  <title>STAYWOKE @ IBM</title>
+  <title>TRANSPARENCY @ IBM</title>
   <link rel="stylesheet" type="text/css" href="styles/theme.css" media="all" />
 </head>
 
 <div class="header">
   <header>
-    <h1> STAY WOKE @ IBM </h1>
+    <h1> TRANSPARENCY @ IBM </h1>
   </header>
 </div>

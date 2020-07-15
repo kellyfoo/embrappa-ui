@@ -15,3 +15,15 @@ header{
   text-align: center;
   background: #0066ff;
 }
+
+.form_title {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.group_label_input :first-child {
+  width: 35%;
+  text-align: right;
+  margin-right: 4px;
+}
