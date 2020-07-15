@@ -1,13 +1,20 @@
 <?php 
 include("includes/init.php"); 
-include("includes/header.php"); ?>
+include("includes/header.php"); 
+
+
+if (isset($_POST["submit_login"])) {
+    header("Location: home.php") ;
+}
+
+?>
 
 
 <!DOCTYPE html>
 <html lang="en">
 
 <div class=login>
-    <form method="post" action="login.php" enctype="multipart/form-data">
+    <form method="post" action="home.php" enctype="multipart/form-data">
           <div class="group_label_input">
             <label class="form_title" for="email"> IBM Email: </label>
             <input id="email" type="text" name="email"  />
@@ -20,7 +27,7 @@ include("includes/header.php"); ?>
 
           <div class="group_label_button">
             <span></span>
-            <input name="submit_upload" type="submit" value="LOG IN" />
+            <input name="submit_login" type="submit" value="LOG IN" />
           </div>
 
           <div class="group_label_input">
@@ -29,8 +36,5 @@ include("includes/header.php"); ?>
         </form>
     
       </div>
-
-
-
 
 </html>

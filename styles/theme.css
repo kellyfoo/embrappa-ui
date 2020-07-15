@@ -71,3 +71,30 @@ a {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-size: 12px;
 }
+
+/***************** home page ***********************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#ffe6e6;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Arial", Gadget, sans-serif;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:black;
+  color:white;
+}
