@@ -16,10 +16,14 @@ header{
   background: #0066ff;
 }
 
+.login {
+  text-align: center;
+}
+
 .form_title {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .group_label_input :first-child {
