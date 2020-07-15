@@ -31,3 +31,18 @@ header{
   text-align: right;
   margin-right: 4px;
 }
+
+/****************** login button ********************/
+input[type=submit]{
+  padding:10px 15px;
+  background:#0066ff;
+  border:0 none;
+  cursor:pointer;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+input[type=submit]:hover {
+  background-color: lightgray;
+  }

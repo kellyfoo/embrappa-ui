@@ -7,7 +7,7 @@ include("includes/header.php"); ?>
 <html lang="en">
 
 <div class=login>
-    <form class="login_form" method="post" action="login.php" enctype="multipart/form-data">
+    <form method="post" action="login.php" enctype="multipart/form-data">
           <div class="group_label_input">
             <label class="form_title" for="email"> IBM Email: </label>
             <input id="email" type="text" name="email"  />
