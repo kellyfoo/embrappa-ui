@@ -18,25 +18,44 @@ header{
 
 .login {
   text-align: center;
+  margin-top: 50px;
+}
+form {
+  display: inline-block;
 }
 
 .form_title {
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   color: black;
   font-size: 24px;
+  margin-right: 8px;
 }
 
-.group_label_input :first-child {
-  width: 35%;
-  text-align: right;
-  margin-right: 4px;
+.group_label_input {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding: 10px;
 }
+
+.password_input_text{
+  margin-left: 6px;
+}
+
+.group_label_button {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 115px;
+}
+
 
 /****************** login button ********************/
 input[type=submit]{
-  padding:10px 15px;
+  padding:9px 60px;
   background:#0066ff;
   border:0 none;
+  border-radius: 5px;
   cursor:pointer;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   color: white;
@@ -44,5 +63,11 @@ input[type=submit]{
 }
 
 input[type=submit]:hover {
-  background-color: lightgray;
+  background-color: gray;
   }
+
+a {
+  margin-left: 115px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 12px;
+}

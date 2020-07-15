@@ -15,14 +15,19 @@ include("includes/header.php"); ?>
 
           <div class="group_label_input">
             <label class="form_title" for="password"> Password: </label>
-            <input id="password" type="text" name="password"  />
+            <input class = "password_input_text" id="password" type="text" name="password"  />
           </div>
 
-          <div class="group_label_input">
+          <div class="group_label_button">
             <span></span>
             <input name="submit_upload" type="submit" value="LOG IN" />
           </div>
+
+          <div class="group_label_input">
+            <a href="url">Forgot password</a>
+          </div>
         </form>
+    
       </div>
 
 
